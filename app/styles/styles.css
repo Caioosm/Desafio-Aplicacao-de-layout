@@ -1,0 +1,74 @@
+/* Formatando o corpo da página */
+body {
+    background-color: silver; /* cor de fundo */
+    color: black; /* cor do texto */
+}
+
+/* Formatando todos os elementos */
+* {
+    font-family: verdana; /* Definindo fonte */
+}
+
+/* Formatando o título da página */
+h1 {
+    color: purple; /* Definindo cor do texto */
+    text-align: center; /* Alinhando título no centro */
+}
+
+/* Formatando a borda ao redor do formulário */
+fieldset {
+    display: flex;
+    justify-content: center;
+    width: 47%; /* Largura */
+    margin: 0 auto; /* Centraliza formulário */
+    border-radius: 15px; /* Borda Arredondada */
+    background-color: white; /* Cor de Fundo */
+    box-shadow: 2px 2px 2px gray; /* Sombra na Caixa */
+}
+
+/* Formatando campo de entrada, seleção e área de texto */
+input, select, textarea {
+    border-radius: 4px; /* Arredondando bordas */
+    padding: 5px; /* Definindo margem interna */
+    margin: 5px; /* Definindo margem externa */
+}
+
+/* Texto antes dos campos */
+label {
+    font-weight: bold; /* Colocando texto em negrito */
+}
+
+/* Estilo dos botões */
+button.submit {
+    background-color: green; /* Cor de fundo verde para o botão Enviar */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mãozinha */
+    margin-right: 10px; /* Margem direita */
+}
+
+button.submit:hover {
+    background-color: darkgreen; /* Cor de fundo quando passar o mouse */
+}
+
+button.reset {
+    background-color: red; /* Cor de fundo vermelho para o botão Limpar */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mãozinha */
+}
+
+button.reset:hover {
+    background-color: darkred; /* Cor de fundo quando passar o mouse */
+}
+
+textarea {
+    border-radius: 4px; /* Arredondando bordas */
+    padding: 5px; /* Definindo margem interna */
+    margin: 5px 0; /* Definindo margem externa acima e abaixo */
+    width: 100%; /* Largura total para inputs */
+}
